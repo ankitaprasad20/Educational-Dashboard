@@ -6,7 +6,7 @@ error_reporting( E_ALL & ~E_DEPRECATED & ~E_NOTICE );
 ob_start();
 
 define('DB_DRIVER', 'mysql');
-define("DB_HOST", "localhost:3308");
+define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASSWORD", "");
 define("DB_DATABASE", "sampletest");
